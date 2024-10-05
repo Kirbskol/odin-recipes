@@ -1,0 +1,88 @@
+/* styles.css */
+
+/* universal settings */
+
+body {
+    background-color: #FECC02;
+}
+
+.header h1, h3, h4 {
+    text-align: center;
+    color: #FECC02;
+  }
+
+/* index page */
+
+.logo {
+
+}
+
+.box {
+    background-color: #006AA7;
+    width: 500px;
+    height: auto;
+    left: 50%;
+    margin-left: -259px;
+    position: relative;
+    border: 4px solid black;
+    padding: 10px;
+  }
+
+  .box img{
+    margin: auto;
+    display: block;
+    padding-top: 11%;
+  }
+
+  .list ul, ol {
+    text-align: left;
+    color: #FECC02;
+    padding-bottom: 6%;
+  }
+
+  a:link, a:visited {
+    color: #000000;
+  }
+
+  a:hover, a:active{
+    color: #FECC02;
+  }
+
+  /* recipe pages */
+
+  .boxr {
+    background-color: #006AA7;
+    width: 500px;
+    height: auto;
+    left: 50%;
+    margin-left: -250px;
+    position: relative;
+    border: 4px solid black;
+    padding: 10px;
+  }
+
+  .logo {
+    display: left;
+    margin: auto;
+  }
+
+  .image{
+    margin: auto;
+    display: block;
+    border: 4px solid black;
+  }
+
+  .listr ul, ol {
+    text-align: left;
+    color: #FECC02;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  a:link, a:visited {
+    color: #000000;
+  }
+
+  a:hover, a:active{
+    color: #FECC02;
+  }
