@@ -4,6 +4,7 @@
 
 body {
     background-color: #FECC02;
+    margin-top: 10px;
 }
 
 .header h1, h3, h4 {
@@ -13,13 +14,9 @@ body {
 
 /* index page */
 
-.logo {
-
-}
-
 .box {
     background-color: #006AA7;
-    width: 500px;
+    width: 35%;
     height: auto;
     left: 50%;
     margin-left: -259px;
@@ -29,6 +26,8 @@ body {
   }
 
   .box img{
+    height: auto;
+    width: 50%;
     margin: auto;
     display: block;
     padding-top: 11%;
@@ -37,6 +36,8 @@ body {
   .list ul, ol {
     text-align: left;
     color: #FECC02;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-bottom: 6%;
   }
 
@@ -52,7 +53,7 @@ body {
 
   .boxr {
     background-color: #006AA7;
-    width: 500px;
+    width: 35%;
     height: auto;
     left: 50%;
     margin-left: -250px;
@@ -62,11 +63,15 @@ body {
   }
 
   .logo {
+    height: auto;
+    width: 10%;
     display: left;
     margin: auto;
   }
 
   .image{
+    height: auto;
+    width: 50%;
     margin: auto;
     display: block;
     border: 4px solid black;
@@ -75,8 +80,8 @@ body {
   .listr ul, ol {
     text-align: left;
     color: #FECC02;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   a:link, a:visited {
