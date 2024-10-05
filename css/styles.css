@@ -53,18 +53,18 @@ body {
 
   .boxr {
     background-color: #006AA7;
-    width: 35%;
+    width: 50%;
     height: auto;
     left: 50%;
-    margin-left: -250px;
     position: relative;
     border: 4px solid black;
     padding: 10px;
+    transform: translate(-50%, 0%);
   }
 
   .logo {
     height: auto;
-    width: 10%;
+    width: 14%;
     display: left;
     margin: auto;
   }
